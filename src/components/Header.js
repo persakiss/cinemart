@@ -14,7 +14,7 @@ import header from '../assets/img/header/header-red.png';
 export default function Header() {
   return (
     <header>
-      <MDBNavbar expand='lg' dark bgColor='dark' sticky>
+      <MDBNavbar expand='lg' dark bgColor='dark' sticky className='shadow-5-strong'>
         <MDBContainer fluid>
         <MDBNavbarBrand href='#'>cinemart</MDBNavbarBrand>
           <MDBNavbarToggler
@@ -47,7 +47,7 @@ export default function Header() {
 
       <div
         className='p-5 text-center bg-image img-fluid customHeader'
-        style={{ backgroundImage: `url(${header})` , backgroundSize: 'cover'}}
+        style={{ backgroundImage: `linear-gradient(to bottom, transparent 0%, #000000bd 70%, #000000 95%), url(${header})` , backgroundSize: 'cover'}}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
           <div className='d-flex justify-content-left align-items-left h-100 leftward'>
@@ -62,56 +62,10 @@ export default function Header() {
         </div>
       </div>
 
-      <p className='mt-4'>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
-      <p>Scroll down</p>
+      <div className='belowFold '>
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
+      
+      </div>
     </header>
   );
 }
