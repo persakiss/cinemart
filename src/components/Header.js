@@ -6,7 +6,8 @@ import {
   MDBNavbarLink,
   MDBNavbarToggler,
   MDBContainer,
-  MDBIcon
+  MDBIcon,
+  MDBNavbarBrand
 } from 'mdb-react-ui-kit';
 import header from '../assets/img/header/header-red.png';
 
@@ -15,6 +16,7 @@ export default function Header() {
     <header>
       <MDBNavbar expand='lg' dark bgColor='dark' sticky>
         <MDBContainer fluid>
+        <MDBNavbarBrand href='#'>cinemart</MDBNavbarBrand>
           <MDBNavbarToggler
             aria-controls='navbarExample01'
             aria-expanded='false'
@@ -25,7 +27,7 @@ export default function Header() {
           <div className='collapse navbar-collapse' id='navbarExample01'>
             <MDBNavbarNav right className='mb-2 mb-lg-0'>
               <MDBNavbarItem active>
-                <MDBNavbarLink aria-current='page' href='#'>
+                <MDBNavbarLink aria-current='page' href='#' className='d-none'>
                   Home
                 </MDBNavbarLink>
               </MDBNavbarItem>
