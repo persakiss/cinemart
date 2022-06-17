@@ -47,7 +47,7 @@ export default function Header() {
 
       <div
         className='p-5 text-center bg-image img-fluid customHeader'
-        style={{ backgroundImage: `linear-gradient(to bottom, transparent 0%, #000000bd 70%, #000000 95%), url(${header})` , backgroundSize: 'cover'}}
+        style={{ backgroundImage: `linear-gradient(to bottom, transparent 0%, #000000bd 80%, #000000 95%), url(${header})` , backgroundSize: 'cover'}}
       >
         <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.0)' }}>
           <div className='d-flex justify-content-left align-items-left h-100 leftward'>
@@ -63,8 +63,7 @@ export default function Header() {
       </div>
 
       <div className='belowFold '>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /> 
-      
+      <br/><br/><br/><br/>
       </div>
     </header>
   );
