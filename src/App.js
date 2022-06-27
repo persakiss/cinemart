@@ -14,13 +14,19 @@ export default function App() {
         <ParallaxBanner
           layers={[
             { image: bg1, speed: -10 },
+            {
+              speed: -5,
+              children: (
+                <div className="header-text">
+                  <h1 className="text-white pt-4 header-text ml-4">cinemart</h1>
+                  <h2 className="text-white ml-4">action through cinema</h2>
+                </div>
+              ),
+            },
             { image: fg1, speed: 5  },
           ]}
           className="aspect-[2/1] header-top "
         >
-          {/* <div className="">
-            <h1 className="text-white">Hello World!</h1>
-          </div> */}
         </ParallaxBanner>
       </ParallaxProvider>
       <br />
