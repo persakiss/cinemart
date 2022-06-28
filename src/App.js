@@ -15,7 +15,7 @@ export default function App() {
           textColor: "#fff",
           bulletsColor: "#fff",
           position: "right",
-          tooltips: ["Water", "Air", "Fire", "Soil", "Sky"],
+          tooltips: ["Home", "About", "Features", "Contact"],
         },
       });
     });
@@ -23,25 +23,23 @@ export default function App() {
 
   return (
     <>
+    <ParallaxProvider>
       <div id="pagepiling">
         <div class="section">
-          <ParallaxProvider>
             <FirstPage />
-          </ParallaxProvider>
         </div>
         <div class="section sec2">
-          <h1>Air</h1>
+          <h1>About</h1>
         </div>
         <div class="section sec3">
-          <h1>Fire</h1>
+          <h1>Features</h1>
         </div>
         <div class="section sec4">
-          <h1>Soil</h1>
-        </div>
-        <div class="section sec5">
-          <h1>Sky</h1>
+          <h1>Contact</h1>
         </div>
       </div>
+
+      </ParallaxProvider>
     </>
   );
 }

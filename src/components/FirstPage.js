@@ -3,6 +3,7 @@ import { MDBContainer, MDBRow, MDBCol, MDBTypography } from "mdbreact";
 import { ParallaxBanner } from 'react-scroll-parallax';
 import bg1 from "../assets/img/header/background.png";
 import fg1 from "../assets/img/header/foreground.png";
+import '../assets/scss/_custom-styles.scss'
 
 function FirstPage() {
   return (
@@ -11,7 +12,7 @@ function FirstPage() {
     layers={[
       { image: bg1, speed: -10 },
       {
-        translateX: [10, 0],
+        translateX: [-40, 10],
         translateY: [18, 40],
         speed: -10,
         children: (
