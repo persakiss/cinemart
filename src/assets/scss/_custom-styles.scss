@@ -4,7 +4,12 @@
   height: 100vh;
   max-width: 100%;
   max-height: 100%;
-  background-image: linear-gradient(to bottom, transparent 0%, #000000bd 70%, #000000 95%),
+  background-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    #000000bd 70%,
+    #000000 95%
+  );
 }
 
 .leftward {
@@ -23,23 +28,17 @@ body {
 .header-top {
   height: 100vh;
   background-color: black;
-  background-size: cover;  
+  background-size: cover;
 }
 
 .header-text {
   padding-top: 4rem;
-}
-
-.header-text  h1 {
-  font-size: 10rem;
-}
-
-.header-text h2 {
-  word-wrap: none;
-  white-space: nowrap;
+  font-family: "Cinzel", serif;
 }
 
 .sub-text {
   margin-top: -3rem;
-  margin-left: 13rem;
+  margin-left: 18rem;
+  word-wrap: none;
+  white-space: nowrap;
 }
