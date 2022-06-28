@@ -31,14 +31,76 @@ body {
   background-size: cover;
 }
 
-.header-text {
+
+
+.header-text-xs {
   padding-top: 4rem;
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+}
+
+.sub-text-xs {
+  margin-top: -3rem;
+  margin-left: 3rem;
+  word-wrap: none;
+  white-space: nowrap;
+  font-size: medium;
+}
+
+.header-text-sm {
+  padding-top: 4rem;
+  margin-left:2rem;
+  font-family: "Cinzel", serif;
+  font-size: 3rem;
+}
+
+.sub-text-sm {
+  margin-top: -3rem;
+  margin-left: 6rem;
+  word-wrap: none;
+  white-space: nowrap;
+  font-size: medium;
+}
+
+.header-text-md {
+  padding-top: 4rem;
+  margin-left: 2rem;
+  font-family: "Cinzel", serif;
+  font-size: 3.5rem;
+}
+
+.sub-text-md {
+  margin-top: -3rem;
+  margin-left: 6rem;
+  word-wrap: none;
+  white-space: nowrap;
+  font-size: medium;
+}
+
+.header-text-lg {
+  padding-top: 4rem;
+  margin-left: 2rem;
+  font-family: "Cinzel", serif;
+  font-size: 4rem;
+}
+
+.sub-text-lg {
+  margin-top: -3rem;
+  margin-left: 9rem;
+  word-wrap: none;
+  white-space: nowrap;
+  font-size: medium;
+}
+
+.header-text-xl {
+  padding-top: 4rem;
+  margin-left: -5rem;
   font-family: "Cinzel", serif;
 }
 
-.sub-text {
+.sub-text-xl {
   margin-top: -3rem;
-  margin-left: 18rem;
+  margin-left: 10rem;
   word-wrap: none;
   white-space: nowrap;
   font-size: medium;

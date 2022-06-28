@@ -1,4 +1,3 @@
-import { ParallaxProvider } from "react-scroll-parallax";
 import { useEffect } from "react";
 import "./App.scss";
 import FirstPage from "./components/FirstPage";
@@ -23,7 +22,6 @@ export default function App() {
 
   return (
     <>
-    <ParallaxProvider>
       <div id="pagepiling">
         <div class="section">
             <FirstPage />
@@ -38,8 +36,6 @@ export default function App() {
           <h1>Contact</h1>
         </div>
       </div>
-
-      </ParallaxProvider>
     </>
   );
 }
